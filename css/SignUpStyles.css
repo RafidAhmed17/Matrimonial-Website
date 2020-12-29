@@ -1,0 +1,109 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background: url(../pics/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.loginbox{
+
+    background-color: black;
+    opacity: 90%;
+    color:white;
+    width: 25%;
+    text-align: left;
+    margin-left: 35%;
+    padding: 5%;
+
+}  
+input.Submit{
+    color:black;
+    background-color: yellow;
+    opacity: 80%;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+} 
+a{
+    
+    text-decoration: none;
+    color:white;
+}
+input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-top:-10px ;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+
+}
+.loginbox a
+ {
+    text-decoration : none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginbox a:hover
+ {
+    color: #ffc107;
+}
+.loginbox input[type="Submit"]
+ {
+    cursor: pointer;
+    background:yellow;
+    color:black;
+
+}
+.loginbox input[type="Submit"]
+ {
+    border: none;
+    outline: none;
+    height: 40px;
+    background : yellow;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.gender{
+    background: #2D2B2A;
+    font-style: times;
+    color: white;
+    opacity: 80%;
+    
+}
+.religion{
+    background: #2D2B2A;
+    color: white;
+    opacity: 80%;
+}
+.mothertongue{
+    background: #2D2B2A;
+    color: white;
+    opacity: 80%;
+}
+.dateofbirth{
+    background: #2D2B2A;
+    color: white;
+    opacity: 80%;
+
+}
