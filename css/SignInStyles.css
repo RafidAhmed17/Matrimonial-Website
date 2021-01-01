@@ -93,3 +93,17 @@ body {
  {
     color: #ffc107;
 }
+h1.header {
+    text-align: left ;
+    color: white;
+    font : century;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 2% ;
+    margin-top : 1%;
+    font-size: 25px;
+}
+
+a.logo{
+
+    text-decoration: none;
+}

@@ -18,6 +18,7 @@ body {
     text-align: left;
     margin-left: 35%;
     padding: 5%;
+    margin-bottom: 2.5%;
 
 }  
 input.Submit{
@@ -106,4 +107,18 @@ h1{
     color: white;
     opacity: 80%;
 
+}
+h1.header {
+    text-align: left ;
+    color: white;
+    font : century;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 2% ;
+    margin-top : 1%;
+    font-size: 25px;
+}
+
+a.logo{
+
+    text-decoration: none;
 }
