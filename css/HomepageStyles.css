@@ -1,0 +1,140 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+.backgroundPic{
+    background : url(../pics/HomepageBackground.jpg) no-repeat;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 500px;
+    
+}
+
+h1.header {
+    text-align: left ;
+    color: white;
+    font : century;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 3% ;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a.logo{
+
+    text-decoration: none;
+    float:left;
+    
+    
+}
+.search{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.buttons{
+    float: right;
+    margin-bottom: 1px;
+}
+.btn{
+    border : 50px ;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.signIn,.signUp,.aboutUs.contactUs{
+    color: black;
+}
+
+
+div ul li{
+    display: inline-block;
+}
+div ul li button{
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+    letter-spacing: 1px;
+
+}
+span button{
+    margin-left: 40%;
+    margin-top: -15%;
+    background-color:#206B64;
+    color: white;
+    border: 15px solid #206B64;
+    border-radius: 40px;
+    font-family: 'Raleway';
+
+}
+
+.au{
+    margin-top: 100px;
+    margin-right: 150px;
+    width: 30%;
+    height: 110%;
+    float: right;
+    
+}
+.au h1{
+    font-family: 'Raleway', sans-serif;
+}
+.au h2{
+    font-size: 120%;
+    line-height: 30px;
+    font-family: Raleway;
+}
+
+.weddingpics img{
+    height: 350px;
+    width: 300px;
+}
+img.wp1{
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+}
+img.wp2{
+    margin-left: 350px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+
+    
+}
+img.wp3{
+    margin-left: 100px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 3;
+}
+.weddingpics{
+    margin-top: 100px;
+    width: 50%;
+    float: left;
+    
+}
+.hiw{
+    margin-top: 1100px;
+    margin-left: 40%;
+    font-family:'Raleway', sans-serif;
+}
+
+.howitworks{
+    margin-left: 40%;
+    margin-right: 45%;
+    border: 1px circle black ;
+    border-radius: circle;
+}
