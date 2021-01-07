@@ -275,3 +275,12 @@ input{
     font-size: 35px;
 
 }
+.ftr{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: #000000;
+}
+.footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
