@@ -2,6 +2,9 @@
     margin: 0 ;
     padding: 0;
 }
+html{
+    scroll-behavior:smooth;
+}
 
 .backgroundPic{
     background : url(../pics/HomepageBackground.jpg) no-repeat;
@@ -19,9 +22,20 @@ h1.header {
     color: white;
     font : century;
     font-family: 'Raleway', sans-serif;
-    margin-left: 3% ;
+    margin-left: 30px ;
+    margin-top: 15px;
     font-size: 25px;
     text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: red;
+    transition: .3s;
 }
 
 a.logo{
@@ -29,17 +43,18 @@ a.logo{
     text-decoration: none;
     float:left;
     
-    
 }
-.search{
+ul span a img{
     height: 40px;
     width: 40px;
+
     
 }
 
 .buttons{
     float: right;
-    margin-bottom: 1px;
+
+    height: 100px;
 }
 .btn{
     border : 50px ;
@@ -50,6 +65,8 @@ a.logo{
     font-family: 'Raleway', sans-serif;
     margin: 10px;
     cursor: pointer;
+    background-color: white;
+    padding: 8px;
 }
 
 .signIn,.signUp,.aboutUs.contactUs{

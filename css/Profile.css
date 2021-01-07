@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.box1{
+    background-color: #A16A6A;
+    height: 100px;
+    border: 1px solid ;
+}
+h1.header {
+    text-align: left ;
+    color: white;
+    font : century;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 3% ;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.logo{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    margin-top: -20px;
+    letter-spacing: 2px;
+    font-size:35px;
+    margin-top: -30px;
+}
+.buttons{
+    float: right;
+    margin-bottom: 1px;
+}
+ul{
+    list-style: none ;
+} 
+  
+ul li{
+    padding: 10px;
+    background-color: white;
+    float: left;
+    border: 2px solid #707070;
+    border-radius: 50px;
+    margin-top: -42px;
+    margin-right: 50px;
+}
+.search a{
+    margin-top: -px;
+    float: left; 
+}
+
+.search p{
+    float: right; 
+}
+.search img{
+    margin-right: 5px;
+}
+ul li a{
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+.box2{
+    margin-top: 50px;
+    border:   #555555 solid 2px;
+    height: 500px;
+    width: 900px;
+    margin-left: 400px;
+    border-radius: 100px;
+}
+.box2 .leftSection{
+    float: left;
+    margin-left: 140px;
+    margin-top: 45px;
+}
+.box2 .rightSection{
+    float: right;
+    margin-top: 45px;
+    margin-right: 150px;
+}
+.infoFont{
+    font-style: italic;
+    font-size: 30px;
+}
+.infosubFont{
+    font-family: 'Raleway';
+    font-size: 25px;
+}
