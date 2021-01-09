@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.box1{
+    background-color: #A16A6A;
+    height: 100px;
+    border: 1px solid ;
+}
+h1.header {
+    text-align: left ;
+    color: white;
+    font : century;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 3% ;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.logo{
+    text-decoration: none;
+}
+
+.buttons{
+    float: right;
+    margin-bottom: 1px;
+}
+ul{
+    list-style: none ;
+} 
+  
+.buttons ul li{
+    padding: 10px;
+    background-color: white;
+    float: left;
+    border: 2px solid #707070;
+    border-radius: 50px;
+    margin-top: -42px;
+    margin-right: 50px;
+}
+.search a{
+    margin-top: -px;
+    float: left; 
+}
+
+.search p{
+    float: right; 
+}
+.search img{
+    margin-right: 5px;
+}
+ul li a{
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    font: italic bold;
+    font-family: 'raleway';
+    font-size: 40px;
+    margin-top: 10px;
+}
+.box2{
+    margin-top: 50px;
+    border:   #555555 solid 2px;
+    height: 300px;
+    width: 1500px;
+    border-radius: 100px;
+    margin-left: 50px;
+}
+ul{
+    list-style: none ;
+} 
+  
+.options li{
+    background-color: white;
+    float: left ;
+    border-radius: 50px;
+    margin-top: 42px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+p{
+    font-weight: 600;
+}
+.container{
+   margin-left: 60px;
+}
+select{
+    font-size: 20px;
+    border: 2px #707070 solid;
+    padding: 2px;
+}
+.submit_button{
+    margin-top: 160px;
+    margin-left: 630px;
+}
+.submit_i{
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 35px;
+    background-color:#ff000091;
+    border-radius: 15px;
+    color: white;
+    font-style: bold;
+    font-family: century;
+}
+.sunbmit-button:hover{
+    color: yellow;
+}
