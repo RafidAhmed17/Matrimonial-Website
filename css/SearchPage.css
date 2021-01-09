@@ -107,6 +107,15 @@ select{
     font-style: bold;
     font-family: century;
 }
-.sunbmit-button:hover{
-    color: yellow;
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 18px;
+ }
+th {
+    text-align: center;
+ }
+td{
+
+    text-align: center;
 }
